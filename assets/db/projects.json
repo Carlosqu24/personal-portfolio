@@ -1,0 +1,26 @@
+[
+      {
+            "id": 1,
+            "name": "Travl",
+            "description": "Is a simple travel agency landing page.",
+            "imageUrl": "./assets/images/projects/travl.png",
+            "githubRepoUrl": "",
+            "liveUrl": ""
+      },
+      {
+            "id": 2,
+            "name": "Contacts app",
+            "description": "Is a simple app to manage your contacts.",
+            "imageUrl": "./assets/images/projects/contacts-app.png",
+            "githubRepoUrl": "",
+            "liveUrl": ""
+      },
+      {
+            "id": 3,
+            "name": "Architecture landing page",
+            "description": "It's a simple landing page",
+            "imageUrl": "./assets/images/projects/architecture-landing-page.png",
+            "githubRepoUrl": "",
+            "liveUrl": ""
+      }
+]
