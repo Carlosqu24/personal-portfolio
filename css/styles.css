@@ -480,7 +480,7 @@ body {
       display: none;
       bottom: 0;
       right: 0;
-      margin: 0 100px 100px 0;
+      margin: 0 50px 100px 0;
 
       font-size: 25px;
       color: var(--green);
