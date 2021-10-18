@@ -490,6 +490,9 @@ body {
       display: block;
 }
 
+#btn-mailto {
+      display: none;
+}
 
 
 @media screen and (max-width: 976px) {

@@ -1,1 +1,26 @@
-var _0x8b2e=[".scroll-to-top-btn","querySelector","scroll","scrollY","scroll-to-top-btn--active","add","classList","remove","addEventListener"];const $scrollToTopBtn=document[_0x8b2e[1]](_0x8b2e[0]);document[_0x8b2e[8]](_0x8b2e[2],()=>{window[_0x8b2e[3]],window[_0x8b2e[3]]>739?$scrollToTopBtn[_0x8b2e[6]][_0x8b2e[5]](_0x8b2e[4]):$scrollToTopBtn[_0x8b2e[6]][_0x8b2e[7]](_0x8b2e[4])});
+const $scrollToTopBtn = document.querySelector('.scroll-to-top-btn');
+const $form = document.querySelector('.form');
+const $btnMailto = document.querySelector('#btn-mailto')
+
+function handleSubmit(e) {
+      e.preventDefault()
+
+      const form = new FormData(this);
+
+      $btnMailto.setAttribute('src', `mailto:carlosquesadaumana@gmail.com?subject=${form.get('name')}&body=${form.get('message')}`);
+      $btnMailto.click();
+}
+
+document.addEventListener("scroll", () => {
+      if(window.scrollY > 770) {
+            // Poner la clase al navbar para que aparezca
+      };
+
+      if(window.scrollY > 739) {
+            $scrollToTopBtn.classList.add('scroll-to-top-btn--active');
+      } else {
+            $scrollToTopBtn.classList.remove('scroll-to-top-btn--active');
+      };
+}); 
+
+$form.addEventListener('submit', handleSubmit)
