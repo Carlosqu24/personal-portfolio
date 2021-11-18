@@ -1,6 +1,7 @@
 const $scrollToTopBtn = document.querySelector('.scroll-to-top-btn');
 const $form = document.querySelector('.form');
 const $btnMailto = document.querySelector('#btn-mailto')
+const $projects = document.querySelector('#projects');
 
 function handleSubmit(e) {
       e.preventDefault()
@@ -9,7 +10,7 @@ function handleSubmit(e) {
 
       $btnMailto.setAttribute('src', `mailto:carlosquesadaumana@gmail.com?subject=${form.get('name')}&body=${form.get('message')}`);
       $btnMailto.click();
-}
+};
 
 document.addEventListener("scroll", () => {
       if(window.scrollY > 770) {
