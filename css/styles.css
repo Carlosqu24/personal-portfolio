@@ -186,6 +186,23 @@ body {
       font-size: 20px;
 }
 
+.hero__social-links {
+
+}
+
+.social-link {
+      margin-right: 30px;
+
+      color: #000;
+      text-decoration: none;
+      font-size: 24px;
+}
+
+.social-link--footer {
+      color: #fff;
+}
+
+
 .hero__scroll-down-link {
       font-size: 25px;
       text-decoration: none;
@@ -273,10 +290,9 @@ body {
       padding: 1.5rem;
       margin: auto;
 
-      background: #000;
-      /* background: transparent; */
-      /* color: #000; */
-      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+      background: rgba(0, 0, 0, 0);
+      color: #000;
+      /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
 
       display: flex;
       justify-content: space-between;
@@ -308,12 +324,12 @@ body {
 
       text-align: justify;
       font-size: 1rem;
-      color: rgb(185, 185, 185);
+      color: rgba(0, 0, 0, 0.849);
       /* color: #000; */
 }
 
 .card__container-img {
-      height: 500px;
+      height: 340px;
       width: 340px;
 }
 
@@ -326,7 +342,10 @@ body {
 .button--cv {
       background: var(--green);
       font-size: 16px;
-      font-weight: 500;
+      font-weight: bold;
+      color: #000;
+
+      font-family: var(--primary-font);
 
       transition: background 0.3s ease;
 }
@@ -446,7 +465,7 @@ body {
       align-items: center;
 }
 
-.social-links__link--footer {
+/* .social-links__link--footer {
       color: #fff; 
 
       transition: background 0.3s ease;
@@ -454,7 +473,7 @@ body {
 
 .social-links__link--footer:hover {
       background: var(--green);
-}
+} */
 
 
 
