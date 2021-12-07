@@ -191,7 +191,8 @@ body {
 }
 
 .social-link {
-      margin-right: 30px;
+      margin-right: 20px;
+      padding: 8px;
 
       color: #000;
       text-decoration: none;
@@ -251,6 +252,7 @@ body {
       height: 100vh;
       margin: auto;
       padding: 4rem 1rem;
+      padding: 4rem 0rem;
 
       color: #fff;
 }
@@ -441,46 +443,6 @@ body {
 
 
 
-/* CONTACT */
-.footer {
-      height: 100px;
-      
-      background: #000; 
-      color: #fff;
-
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-}
-
-/* .social-links__link--footer {
-      color: #fff; 
-
-      transition: background 0.3s ease;
-}
-
-.social-links__link--footer:hover {
-      background: var(--green);
-} */
-
-
-
-
-/* CONTACT */
-.section-contact {
-      height: auto;
-      /* padding: 3rem 1rem; */
-}
-
-.section-contact__title {
-      color: #000;
-      
-}
-
-
-
-
-
 /* SCROLL TO TOP */
 .scroll-to-top-btn {
       position: fixed;
@@ -497,13 +459,32 @@ body {
       display: block;
 }
 
-#btn-mailto {
-      display: none;
+
+/* FOOTER */
+.footer {
+      height: 100px;
+      
+      background: #000; 
+      color: #fff;
+}
+
+
+.footer .container {
+      width: 70%;
+      height: 100%;
+      margin: auto;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 }
 
 
 @media screen and (max-width: 976px) {
       
+      .section {
+            padding: 4rem 1rem;
+      }
 
       /* ABOUT */
       .card {
@@ -535,6 +516,15 @@ body {
       .form {
             width: 100%;
       }
+
+
+
+      /* FOOTER */
+
+      .footer .container {
+            width: 100%;
+            padding: 0rem 1rem;
+      }
       
 }
 
@@ -549,4 +539,10 @@ body {
             width: 100%;
       }
       
+
+      .footer .container {
+            text-align: center;
+
+            flex-direction: column;
+      }
 }
