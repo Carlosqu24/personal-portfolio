@@ -2,6 +2,7 @@ const $scrollToTopBtn = document.querySelector('.scroll-to-top-btn');
 const $form = document.querySelector('.form');
 const $btnMailto = document.querySelector('#btn-mailto')
 const $projects = document.querySelector('#projects');
+const $btnCurriculum = document.querySelector('#btn-curriculum')
 
 function handleSubmit(e) {
       e.preventDefault()
@@ -23,5 +24,9 @@ document.addEventListener("scroll", () => {
             $scrollToTopBtn.classList.remove('scroll-to-top-btn--active');
       };
 }); 
+
+$btnCurriculum.addEventListener("click", e => {
+      window.open("./assets/pdf/Currículum Vitae Carlos Humberto Quesada - English.pdf")
+})
 
 $form.addEventListener('submit', handleSubmit)
