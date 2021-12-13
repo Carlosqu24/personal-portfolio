@@ -31,6 +31,10 @@ body {
       font-family: var(--primary-font);
 }
 
+p {
+      line-height: 1.5;
+}
+
 .header {
       background: transparent;
 }
@@ -192,11 +196,10 @@ body {
 
 .social-link {
       margin-right: 20px;
-      padding: 8px;
 
       color: #000;
-      text-decoration: none;
-      font-size: 24px;
+      /* text-decoration: none; */
+      font-size: 18px;
 }
 
 .social-link--footer {
@@ -530,6 +533,10 @@ body {
 
 @media screen and (max-width: 500px) {
       
+      .card__title {
+            text-align: center;
+      }
+
       /* PROJECTS */
       .projects-grid {
             grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -544,5 +551,6 @@ body {
             text-align: center;
 
             flex-direction: column;
+            justify-content: space-around;
       }
 }
