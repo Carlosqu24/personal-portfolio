@@ -405,9 +405,25 @@ p {
       text-align: justify;
 }
 
+.projects-card__category {
+      display: inline-block;
+      padding: 8px;
+      margin: 1px 0;
+
+      color: #fff;
+}
+
+.projects-card__category--landing-page {
+      background: var(--green);
+}
+
+.projects-card__category--web-application {
+      background: var(--purple);
+}
+
 .projects-card__link {
       width: 150px;
-      margin-right: 1rem;
+      /* margin-right: 1rem; */
       padding: 8px;
 
       background: #000;
@@ -417,7 +433,7 @@ p {
 
       transition: background 0.3s ease;
 
-      display: flex;
+      display: inline-flex;
       justify-content: space-between;
       align-items: center;
 }
