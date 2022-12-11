@@ -89,3 +89,8 @@ export default [{
         githubUrl: "https://github.com/Carlosqu24/react-budget-app"
     }
 }]
+
+export const PROJECTS_CATEGORIES_NAMES = {
+    LANDING_PAGE: 'Landing page',
+    WEB_APPLICATION: 'Web application'
+}
