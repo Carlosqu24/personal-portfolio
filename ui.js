@@ -18,7 +18,6 @@ export function renderItemsListsUIComponent({ itemsList = [], category = "" }) {
                                   <p class="projects-card__category ${project.category === "Landing page" ? "projects-card__category--landing-page" : "projects-card__category--web-application"}">${project.category}</p> 
                                   <p class="projects-card__text">${project.description}</p> 
                                   <a class="projects-card__link projects-card__link--live" href=${project.reposLinks.productionUrl} target="_blank"> <span data-translation-id="projects.seeProject">See Project</span> <i class="fas fa-eye"></i> </a> 
-                                  <a class="projects-card__link projects-card__link--code" href=${project.reposLinks.githubUrl} target="_blank"> <span data-translation-id="projects.seeCode">See code</span> <i class="fab fa-github"></i> </a>
                             </div>
                       </div>
                 `
