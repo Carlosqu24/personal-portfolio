@@ -38,34 +38,36 @@ export default [{
         productionUrl: "https://carlosqu24.github.io/js-countdown/",
         githubUrl: "https://github.com/Carlosqu24/js-countdown"
     }
-}, {
-    id: 5,
-    imageUrl: './assets/images/projects/filter-images-gallery-min.png',
-    name: 'Filter images gallery',
-    category: "Web application",
-    description: "It is a project that filters images according to their name. These images are brought from the Pixabay API.",
-    reposLinks: {
-        productionUrl: "https://carlosqu24.github.io/js-gallery-filter-images/",
-        githubUrl: "https://github.com/Carlosqu24/js-gallery-filter-images"
-    }
-}, {
+}, 
+// {
+//     id: 5,
+//     imageUrl: './assets/images/projects/filter-images-gallery-min.png',
+//     name: 'Filter images gallery',
+//     category: "Web application",
+//     description: "It is a project that filters images according to their name. These images are brought from the Pixabay API.",
+//     reposLinks: {
+//         productionUrl: "https://carlosqu24.github.io/js-gallery-filter-images/",
+//         githubUrl: "https://github.com/Carlosqu24/js-gallery-filter-images"
+//     }
+// }
+, {
     id: 6,
     imageUrl: './assets/images/projects/budget-app.png',
     name: 'Budget App',
     category: "Web application",
     description: "It is an application about managing personal expenses. It is divided into 3 sections: one to show all expenses, the second to add new ones and the third to set a default amount in the budget.",
     reposLinks: {
-        productionUrl: "https://carlosqu24.github.io/javascript-recipes-api/",
+        productionUrl: "https://carlosqu24.github.io/react-budget-app/",
         githubUrl: "https://github.com/Carlosqu24/react-budget-app"
     }
 }, {
     id: 7,
     imageUrl: './assets/images/projects/react-pizza-landing-page-image-url.PNG',
-    name: 'Pizza landing page example',
+    name: 'Pizzeria landing page example',
     category: "Landing page",
     description: "It's an example landing page about a pizza restaurant",
     reposLinks: {
-        productionUrl: "https://carlosqu24.github.io/javascript-recipes-api/",
+        productionUrl: "https://carlosqu24.github.io/react-pizza-landing-page/",
         githubUrl: "https://github.com/Carlosqu24/react-budget-app"
     }
 }, {
@@ -75,7 +77,7 @@ export default [{
     category: "Landing page",
     description: "It's an example landing page about a coffee shop",
     reposLinks: {
-        productionUrl: "https://carlosqu24.github.io/javascript-recipes-api/",
+        productionUrl: "https://carlosqu24.github.io/coffee-shop-simple-landing-page/",
         githubUrl: "https://github.com/Carlosqu24/react-budget-app"
     }
 }, {
@@ -85,7 +87,7 @@ export default [{
     category: "Landing page",
     description: "It's an example landing page about a travel agency",
     reposLinks: {
-        productionUrl: "https://carlosqu24.github.io/javascript-recipes-api/",
+        productionUrl: "https://carlosqu24.github.io/travl-landing-page/",
         githubUrl: "https://github.com/Carlosqu24/react-budget-app"
     }
 }]
