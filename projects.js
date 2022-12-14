@@ -82,7 +82,7 @@ export default [{
     }
 }, {
     id: 9,
-    imageUrl: './assets/images/projects/travl.PNG',
+    imageUrl: './assets/images/projects/travl.png',
     name: 'Travel agency landing page example',
     category: "Landing page",
     description: "It's an example landing page about a travel agency",
