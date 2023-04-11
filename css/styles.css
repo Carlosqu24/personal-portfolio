@@ -38,6 +38,11 @@ p {
   line-height: 1.5;
 }
 
+#theme-button {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
 .header {
   background: transparent;
 }
@@ -172,7 +177,7 @@ p {
 }
 
 .hero__subtitle {
-  margin: 10px 0;
+  margin-bottom: 10px;
 
   font-size: 20px;
 }
