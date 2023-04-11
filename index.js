@@ -54,10 +54,10 @@ document.addEventListener("DOMContentLoaded", (e) => {
         const firstCategory = firstElement.category.toUpperCase(); // ignore upper and lowercase
         const secondCategory = secondElement.category.toUpperCase(); // ignore upper and lowercase
         if (firstCategory < secondCategory) {
-          return -1;
+          return 1;
         }
         if (firstCategory > secondCategory) {
-          return 1;
+          return -1;
         }
         return 0;
       }),
