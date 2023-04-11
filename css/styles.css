@@ -332,6 +332,7 @@ p {
   color: #fff;
 
   cursor: pointer;
+  border: none;
 }
 
 .projects-categories--button.active {
