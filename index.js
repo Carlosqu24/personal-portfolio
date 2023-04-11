@@ -70,7 +70,7 @@ document.querySelector("#theme-button").addEventListener("click", (e) => {
   if (e.target.textContent === THEMES.LIGHT) {
     document.documentElement.style.setProperty(
       "--selected-background-color",
-      "#1f1f1f"
+      "#232323"
     );
     document.documentElement.style.setProperty("--selected-font-color", "#FFF");
     e.target.textContent = THEMES.DARK;
@@ -81,7 +81,7 @@ document.querySelector("#theme-button").addEventListener("click", (e) => {
     );
     document.documentElement.style.setProperty(
       "--selected-font-color",
-      "#1f1f1f"
+      "#232323"
     );
     e.target.textContent = THEMES.LIGHT;
   }

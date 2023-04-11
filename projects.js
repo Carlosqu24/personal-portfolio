@@ -11,6 +11,18 @@ export default [
   //     }
   // },
   {
+    id: 1,
+    imageUrl: "./assets/images/projects/retail-management-system.png",
+    name: "Retail management system",
+    category: "Web application",
+    description:
+      "It's a Full-stack application to manage products for business. Can: Create orders, manage products, manage clients, manage users, auth functionality and more",
+    reposLinks: {
+      //   productionUrl: "https://carlosqu24.github.io/js-contacts-app/",
+      githubUrl: "https://github.com/Carlosqu24/js-contacts-app",
+    },
+  },
+  {
     id: 2,
     imageUrl: "./assets/images/projects/js-contacts-app-1.png",
     name: "Contacts app",

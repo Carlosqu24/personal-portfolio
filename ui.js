@@ -7,9 +7,10 @@ export function renderItemsListsUIComponent({ itemsList = [], category = "" }) {
 
   itemsListFiltered.map((project) => {
     resultHTML += `
-                      <div class="projects-card"> <img class="projects-card__img" src=${
-                        project.imageUrl
-                      } alt="">
+                      <div class="projects-card">
+                       <img class="projects-card__img" src=${
+                         project.imageUrl
+                       } alt="">
                             <div class="projects-card__info">
                                   <h3 class="projects-card__title">${
                                     project.name
@@ -22,9 +23,15 @@ export function renderItemsListsUIComponent({ itemsList = [], category = "" }) {
                                   <p class="projects-card__text">${
                                     project.description
                                   }</p> 
-                                  <a class="projects-card__link projects-card__link--live" href=${
+                                  ${
                                     project.reposLinks.productionUrl
-                                  } target="_blank"> <span data-translation-id="projects.seeProject">See Project</span> <i class="fas fa-eye"></i> </a> 
+                                      ? `<a class="projects-card__link projects-card__link--live" href=${project.reposLinks.productionUrl} target="_blank"> <span data-translation-id="projects.seeProject">See Project</span> <i class="fas fa-eye"></i> </a> `
+                                      : `<span style="padding: 12px;" class="projects-card__link">Coming soon!</span>`
+                                  }
+                                  
+                                  
+
+                                 
                             </div>
                       </div>
                 `;
