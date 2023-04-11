@@ -5,6 +5,7 @@ import {
   toggleCssClassesToSameTypeElements,
 } from "./ui.js";
 import { useTranslation } from "./language.js";
+import { THEMES } from "./constants.js";
 
 const $btnCurriculum = document.querySelector("#btn-curriculum");
 const $projectCategoriesButtons = document.querySelectorAll(
@@ -63,4 +64,25 @@ document.addEventListener("DOMContentLoaded", (e) => {
       category: "",
     }),
   });
+});
+
+document.querySelector("#theme-button").addEventListener("click", (e) => {
+  if (e.target.textContent === THEMES.LIGHT) {
+    document.documentElement.style.setProperty(
+      "--selected-background-color",
+      "#1f1f1f"
+    );
+    document.documentElement.style.setProperty("--selected-font-color", "#FFF");
+    e.target.textContent = THEMES.DARK;
+  } else {
+    document.documentElement.style.setProperty(
+      "--selected-background-color",
+      "#e3e3e3"
+    );
+    document.documentElement.style.setProperty(
+      "--selected-font-color",
+      "#1f1f1f"
+    );
+    e.target.textContent = THEMES.LIGHT;
+  }
 });
