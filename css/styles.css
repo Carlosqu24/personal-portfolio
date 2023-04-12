@@ -183,6 +183,7 @@ p {
 .hero__subtitle {
   margin-bottom: 10px;
 
+  word-break: break-all;
   font-size: 20px;
 }
 
@@ -542,5 +543,11 @@ p {
 
     flex-direction: column;
     justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  * {
+    word-break: break-all;
   }
 }
