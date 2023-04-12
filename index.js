@@ -66,6 +66,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
   });
 });
 
+const $hero = document.querySelector(".hero");
+const $allSocialLinks = document.querySelectorAll(".social-link");
+
 document.querySelector("#theme-button").addEventListener("click", (e) => {
   if (e.target.textContent === THEMES.LIGHT) {
     document.documentElement.style.setProperty(
@@ -73,6 +76,11 @@ document.querySelector("#theme-button").addEventListener("click", (e) => {
       "#232323"
     );
     document.documentElement.style.setProperty("--selected-font-color", "#FFF");
+    $hero.style.backgroundImage =
+      "url(../assets/images/dark-gray-clouds-1.avif)";
+    $allSocialLinks.forEach((socialLink) => {
+      socialLink.style.color = "#fff";
+    });
     e.target.textContent = THEMES.DARK;
   } else {
     document.documentElement.style.setProperty(
@@ -83,6 +91,11 @@ document.querySelector("#theme-button").addEventListener("click", (e) => {
       "--selected-font-color",
       "#232323"
     );
+    $hero.style.backgroundImage = "url(../assets/images/gray-clouds.avif)";
+    $allSocialLinks.forEach((socialLink) => {
+      socialLink.style.color = "#000";
+    });
+
     e.target.textContent = THEMES.LIGHT;
   }
 });

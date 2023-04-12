@@ -13,6 +13,7 @@
 
   --selected-background-color: #e3e3e3;
   --selected-font-color: #1f1f1f;
+  --selected-link-color: #1f1f1f;
 }
 
 /* GENERAL STYLES */
@@ -41,7 +42,7 @@ p {
 }
 
 #theme-button {
-  font-size: 20px;
+  font-size: 28px;
   margin-bottom: 10px;
 }
 
@@ -130,7 +131,7 @@ p {
 .social-links__link {
   padding: 10px;
 
-  color: #000;
+  /* color: #000; */
   text-decoration: none;
 
   /* font-weight: 700; */
@@ -154,9 +155,10 @@ p {
   height: 100vh;
 
   background-image: url(../assets/images/gray-clouds.avif);
+  /* background-image: url(../assets/images/dark-gray-clouds-1.avif); */
   background-size: cover;
   background-attachment: fixed;
-  color: #000;
+  /* color: #000; */
 
   display: flex;
   flex-direction: column;
@@ -190,19 +192,22 @@ p {
 .social-link {
   margin-right: 20px;
 
-  color: #000;
+  /* color: #000; */
   /* text-decoration: none; */
   font-size: 18px;
+  color: var(--selected-link-color);
 }
 
 .social-link--footer {
   color: #fff;
+  color: var(--selected-link-color);
 }
 
 .hero__scroll-down-link {
   font-size: 25px;
   text-decoration: none;
-  color: #000;
+  /* color: #000; */
+  color: var(--selected-link-color);
 }
 
 /* BUTTON COMPONENT */
