@@ -44,6 +44,8 @@ p {
 #theme-button {
   font-size: 28px;
   margin-bottom: 10px;
+  background: transparent;
+  border: none;
 }
 
 .header {
