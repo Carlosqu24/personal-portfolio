@@ -15,7 +15,7 @@ const $allTranslationTags = document.querySelectorAll("[data-translation-id]");
 
 $btnCurriculum.addEventListener("click", (e) => {
   window.open(
-    "./assets/pdf/Currículum Vitae Carlos Humberto Quesada - English.pdf"
+    "./assets/pdf/Currículum Vitae Carlos Quesada - English - Final  2.0.pdf"
   );
 });
 
