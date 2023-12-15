@@ -1,5 +1,5 @@
-import englishDictionary from './assets/languages/en.json' assert { type: "json" };
-import spanishDictionary from './assets/languages/es.json' assert { type: "json" };
+import englishDictionary from './assets/languages/en.js';
+import spanishDictionary from './assets/languages/es.js';
 
 export function useTranslation({ key = "", language = "" }) {
 
